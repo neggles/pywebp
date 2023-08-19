@@ -1,0 +1,16 @@
+{
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "ruff.args": ["--line-length=110", "--ignore=F401,E501,F841"],
+  "ruff.organizeImports": true,
+  "prettier.tabWidth": 2,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  }
+}

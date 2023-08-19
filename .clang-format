@@ -1,0 +1,34 @@
+BasedOnStyle: LLVM
+Language: "Cpp"
+IndentWidth: 4
+TabWidth: 4
+ColumnLimit: 110
+UseTab: Never
+AlignConsecutiveAssignments: AcrossComments
+AlignConsecutiveDeclarations: AcrossComments
+AlignConsecutiveMacros: AcrossComments
+AlignConsecutiveBitFields: AcrossComments
+AlignEscapedNewlines: Left
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AllowShortCaseLabelsOnASingleLine: true
+AlwaysBreakTemplateDeclarations: Yes
+SpaceBeforeCpp11BracedList: true
+BreakStringLiterals: false
+FixNamespaceComments: false
+IndentCaseLabels: true
+IndentPPDirectives: AfterHash
+MaxEmptyLinesToKeep: 2
+NamespaceIndentation: All
+PointerAlignment: Right
+DerivePointerAlignment: false
+BreakBeforeBraces: Attach
+PenaltyExcessCharacter: 10
+SortIncludes: CaseSensitive
+
+
+BinPackArguments: false
+BinPackParameters: false
+ExperimentalAutoDetectBinPacking: false
+AlignAfterOpenBracket: Align
+AllowAllParametersOfDeclarationOnNextLine: false
